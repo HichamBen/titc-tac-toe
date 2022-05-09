@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <header>
+        <div class="brand"><i class="fa-solid fa-x"></i>&nbsp;&nbsp;<i class="fa-regular fa-circle"></i></div>
+        <div class="newMatch"><i class="fa-solid fa-arrow-rotate-right"></i></div>
+    </header>
+    <main>
+        <div class="row">
+            <div id="_00"></div>
+            <div id="_01"></div>
+            <div id="_02"></div>
+        </div>
+        <div class="row">
+            <div id="_10"></div>
+            <div id="_11"></div>
+            <div id="_12"></div>
+        </div>
+        <div class="row">
+            <div id="_20"></div>
+            <div id="_21"></div>
+            <div id="_22"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="your_res">
+            <span>YOU</span>
+            <span>0</span>
+        </div>
+        <div class="ties">
+            <span>TIES</span>
+            <span>0</span>
+        </div>
+        <div class="cpu_res">
+            <span>CPU</span>
+            <span>0</span>
+        </div>
+    </footer>
+    <div class="popup">
+        <div class="choose_section">
+            <p>Choose how is begin!</p>
+            <button id="you"><b style="color:rgb(0, 255, 76)">X</b> YOU</button>
+            <b>OR</b>
+            <button id="cpu"><b style="color:rgb(255, 153, 0)">O</b> CPU</button>
+        </div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+
+</html>
